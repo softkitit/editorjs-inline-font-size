@@ -1,0 +1,66 @@
+{
+  "name": "editorjs-inline-font-size-tool",
+  "version": "1.0.0",
+  "keywords": [
+    "codex editor",
+    "font-size",
+    "tool",
+    "editor.js",
+    "editorjs"
+  ],
+  "description": "Inline tool to change font size for Editor.js",
+  "main": "/src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch"
+  },
+  "devDependencies": {
+    "semantic-release": "^22.0.2",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^6.7.1",
+    "postcss-apply": "^0.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "postcss-nested-ancestors": "^2.0.0",
+    "postcss-nesting": "^7.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "raw-loader": "^3.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "author": {
+    "name": "Vladimir Fedorchenko",
+    "email": "onevovan@softkitit.com",
+    "url": "https://softkit.dev"
+  },
+  "maintainers": [
+    {
+      "name": "Vitalii Samofal",
+      "email": "vitalii.samofal@softkit.dev",
+      "url": "https://softkit.dev"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/softkitit/editorjs-inline-font-size.git"
+  },
+  "bugs": {
+    "url": "https://github.com/softkitit/editorjs-inline-font-size/issues"
+  },
+  "license": "MIT"
+}
